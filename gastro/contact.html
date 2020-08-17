@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>My Contacts</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Bootstrap -->
+	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/custom.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="container forinput">
+		<header class="row">
+			<a href="../index.html">
+				<div class="col-sm-3 logo">
+					<img src="../bootstrap/images/logo.png" alt="The Landon Hotel. " /></div>
+			</a>
+			<div class="col-sm-9 tagline">
+				You'll feel at home in our neighborhood
+			</div>
+		</header>
+		<div class="row">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="navbar">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="execs.html">Executive Team</a></li>
+							<li class="active"><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<!-- end navbar-collapse -->
+				</div>
+				<!-- end container-fluid -->
+			</nav>
+		</div>
+		<div class="row">
+			<h2>Contact Us</h2>
+			<form role="form" data-netlify="ture">
+				<fieldset class="vcol-sm-10 offset-sm-1 text-center">
+					<legend>
+						Haben Sie eine Frage? oder möchten Sie etwas mitzuteillen,<br />
+						dafür frue ich mich sehr, besten Dank.
+					</legend>
+					<a class="direktkont" href="mailto:safollah.karimi@gmail.com" target="_blank"
+						class="btn btn-primary">klicken Sie hier, an mir drekte / Privat eine Mail zu senden!</a>
+					<div class="form-group">
+						<input type="text" name="name" placeholder="Vorname" style="width: 50%; height: 30px;" />
+					</div>
+					<div class="form-group">
+						<input type="text" name="name" placeholder="Nachname" style="width: 50%; height: 30px;" />
+					</div>
+					<div class="form-group">
+						<input type="text" name="email" placeholder=" E-Mail" style="width: 50%; height: 30px;" />
+					</div>
+					<div class="form-group">
+						<textarea name="comments" rows="20" cols="50" placeholder="Nachrichten"
+							style="width: 50%; height: 100%;"></textarea>
+					</div>
+					<div class="form-group">
+						<select name="continent" size="1">
+							<option selected>Wählen Sie Die Zone dass Sie leben...</option>
+							<option value="afr">Africa</option>
+							<option value="ant">Antarctica</option>
+							<option value="asia">Asia</option>
+							<option value="aus">Australia</option>
+							<option value="eur">Europe</option>
+							<option value="na">North America</option>
+							<option value="sa">South America</option>
+						</select>
+					</div>
+					<button type="submit">Senden</button>
+				</fieldset>
+			</form>
+			<img class="konimg" src="../bootstrap/img/kantakt.jpg" alt="kontakt img" />
+		</div>
+		<footer class="container-fluid">
+			<!-- Add font awesome icons -->
+			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+			<div class="elfsight-app-e0380d3c-aa12-4568-897e-ed65d923b6a2"></div>
+			<a href="" class="fa fa-whatsapp">
+				<!-- GetButton.io widget -->
+				<script type="text/javascript">
+					(function () {
+						var options = {
+							whatsapp: "+41779276255", // WhatsApp number
+							call_to_action: "Message us", // Call to action
+							position: "right", // Position may be 'right' or 'left'
+						};
+						var proto = document.location.protocol,
+							host = "getbutton.io",
+							url = proto + "//static." + host;
+						var s = document.createElement("script");
+						s.type = "text/javascript";
+						s.async = true;
+						s.src = url + "/widget-send-button/js/init.js";
+						s.onload = function () {
+							WhWidgetSendButton.init(host, proto, options);
+						};
+						var x = document.getElementsByTagName("script")[0];
+						x.parentNode.insertBefore(s, x);
+					})();
+				</script>
+				<!-- /GetButton.io widget --></a>
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="https://www.youtube.com/channel/UCfHDiJxlU3VibmdNy-fYQ8w?view_as=subscriber"
+				class="fa fa-youtube"></a>
+			<!-- Da iet die Map route-->
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2699.402415177336!2d8.310053515524299!3d47.423596108595284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479013007023e183%3A0xfa68c4b17270e29a!2sSteigstrasse%201%2C%205452%20Oberrohrdorf!5e0!3m2!1sde!2sch!4v1594814767202!5m2!1sde!2sch"
+				width="100%" height="200" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false"
+				tabindex="0"></iframe>
+		</footer>
+		<p>
+			Haben Sie Mehrere fragen.<br />
+			Tel: 0041 77 927 62 55<br />
+			Mail: safollah.karimi@gmail.com<br />
+			Adrasse: Oberrohrdorf Staretschwil Steigstrsse.1
+		</p>
+	</div>
+	<!-- end container -->
+
+	<!-- javascript -->
+	<script src="../bootstrap/js/jquery.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

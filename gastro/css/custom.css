@@ -1,0 +1,138 @@
+/* Custom styling for the Bootstrap website. 
+These styles do not ship with Bootstrap. 
+Some are overrides of existing Bootstrap styles, while others are new styles not existing in Bootstrap.
+In the starting CSS document, styles are based on custom classes not in Bootstrap.
+*/
+
+/* below styles are the default -- take effect at resolutions <768 px */
+
+.forinput {
+	background-color:  #999a9b!important;
+ }
+/*forinput: Da ist nur die kontatk form background color ein gegeben*/
+.konimg{
+	width: 100%;
+	height: auot;
+	float: center;
+}
+.tagline {
+	color: #602F8D;
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: right;
+	padding-top: 1em;
+	top: 3px;
+}
+.logo {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	top: 1px;	
+}
+h3, .h3{
+	font-size: 16px;
+}
+/* footer styling for all resolutions */
+
+.siteinfo {
+	text-align: center;
+	padding: 3em 0;
+	border-top: 1px solid #ddd;
+}
+.siteinfo a {
+	text-decoration: none;
+	color: #999;
+	font-size: 0.8em;
+}
+.siteinfo a:hover {
+	color: #602F8D;
+	text-decoration: underline;
+}
+
+/* Chapter 2 challenge/solution: styling thumbnails and modals */
+
+.btn-primary { 
+    background-color: #602F8D; 
+    border-color: #602F8D; 
+}  
+.btn-primary:hover, 
+.btn-primary:focus,  
+.btn-primary:active { 
+    background-color: #53297A; 
+} 
+.modal-body .pull-left { 
+    padding-right: 1em; 
+} 
+.modal-body .pull-right { 
+    padding-left: 1em; 
+} 
+.modal-footer { 
+    clear: both; 
+} 
+
+/* panel styling for the home page */
+
+.panel-primary .panel-heading {
+	background-color: #602F8D;
+	border-color: #602F8D;
+}
+.panel {
+	border-color: #602F8D;
+}
+/* Da ist die slider cgallery css*/
+.item{
+	width: auto;
+	max-height: 800px;
+
+  }
+.textgallery,a{
+	color: rgb(0, 255, 200);
+}
+.direktkont{
+	color: green;
+}
+	
+/* Small devices (tablets, 768px and up) 
+
+Greater than 768 px, push logo left and tagline right. Alter 
+tagline font size, alignment, and padding for larger dimensions.
+
+*/
+@media(min-width: 768px) {  
+	.logo {
+		text-align: center;
+		
+	}
+	.tagline {
+		font-size: 1vw;
+		text-align: center;
+		padding-top: 1em;
+		top: 2px;
+	}
+	.item{
+		width: auto;
+	
+} 
+}
+/* Da ist die footer und Sociale Median*/
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+  color: #ffffff;
+  background-color: #6d6d6d;
+  text-align: center;
+  width: 100%;
+}
+/* Kontakt Tabelle*/
+table thead>tr>th, .table tbody>tr>th, .table tfoot>tr>th, .table thead>tr>td, .table tbody>tr>td, .table tfoot>tr>td {
+    padding: 8px 0 8px 2vw;
+    line-height: 1.428571429;
+    vertical-align: top;
+	border-top: 1px solid #ddd;
+	font-size: 12px;
+}
+.textcenter{
+	padding:0 0 0 3em;
+	text-align: center;
+	
+} 

@@ -1,0 +1,95 @@
+/* this is my custom CSS */
+body { padding-top: 70px; }
+footer {
+	padding: 2em 0 0 0;
+	margin: 3em 0 0 0;
+	border-top: 1px solid #ddd;
+  color: #ffffff;
+  background-color: #6d6d6d;
+  text-align: center;
+  width: 100%;
+  height: 14%;
+}
+.navbar-header{
+  background-color: #6d7570;
+}
+.navbar-nav{
+font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 0 10px 0 10px;
+}
+.dropdown-menu{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+/* the standard color from footer #999*/
+.glyphicon {
+	color: #cdae51;
+}
+
+.pull-right.img-responsive {
+	margin: 0 0 1em 1em;
+}
+
+.btn-info {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #FFFFFF;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #3F2B22;
+  border-color: #333;
+}
+.panel-default {
+    border-color: #3F2B22;
+}
+.panel-default > .panel-heading {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: white;
+}
+/* Da fangt die Navigation Menü Bootun*/
+.breadcrumb > li  + li:before{
+  content: none;
+}
+.navbar-inverse .navbar-toggle {
+  color: #fff;
+  font-weight: bold;
+  border-color: white;
+  font-size: 20px;
+}
+
+
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #fff;
+  color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+  color: #c7fbda;;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+  color: #333;
+}
+.tab-pane {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd; 
+  border-bottom: 1px solid #ddd;
+  padding: 0.8em;
+}
+.glyphicon {
+  color: #3F2B22;
+}
+.active .glyphicon {
+  color: #cdae51;
+  font-size: 40px;
+}
+.latop{
+  width: 47vw;
+  height: auto;
+}
